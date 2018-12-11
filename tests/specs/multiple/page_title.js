@@ -1,5 +1,10 @@
 var assert = require('assert');
 
+/**
+ * @description Returns any input string in title case form
+ * @return      string
+ */
+
 // TODO,
 // Identify why 'w | w w.com' matches when this is ran, but not in RegExr
 function titlePatternTest( string ) {
